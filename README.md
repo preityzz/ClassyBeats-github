@@ -13,6 +13,7 @@ Run the following command in your project root to install the necessary dependen
 
 Copy code
 npm install
+
 2.Start Client (React.js):
 Navigate to the client folder using:
 

@@ -1,0 +1,149 @@
+// @import "../../css-config/mixins.scss";
+
+ 
+    //     // min-h-[650px] flex items-center
+    // .content {
+    //             min-height: 650px;
+    //             display: flex;
+    //             align-items: center;
+    //     .ca{
+    //         // max-w-[600px] rounded-lg p-5 border border-black mx-auto flex flex-col
+    //         max-width: 600px;
+    //         border-radius: 1rem; 
+    //         padding: 1.25rem; 
+    //         border: 1px solid black; 
+    //         margin: 0 auto; 
+    //         display: flex;
+    //         flex-direction: column; 
+    //         .success-image {
+    //                 width: 150px; // Adjust the size as needed
+    //                 margin-bottom: 20px;
+    //             }
+    //         .caa{
+    //             font-size: 1.5rem; 
+    //                 font-weight: bold;
+    //         }
+        
+    //         .caa2{
+    //         font-size: 1.125rem; 
+    //             font-weight: bold; 
+    //             margin-top: 0.5rem;
+    //          }
+    //         .caa3{
+    //                 font-size: 1rem; 
+    //                     margin-top: 1.25rem;
+    //         }
+    //         .u{
+    //             text-decoration: underline;
+    //         }
+            
+            // .button {
+            //                  padding: 20px 15px;
+            
+            //                  .checkout-cta {
+            //                      outline: 0;
+            //                      border: 0;
+            //                      height: 50px;
+            //                      width: 100%;
+            //                      display: flex;
+            //                      align-items: center;
+            //                      justify-content: center;
+            //                      cursor: pointer;
+            //                      font-size: 16px;
+            //                      color: white;
+            //                      background: #8e2de2;
+            //                      border-bottom: 3px solid #6516aa;
+            //                      text-transform: uppercase;
+            
+            //                      svg {
+            //                          margin-right: 10px;
+            //                      }
+            //                  }
+            //              }
+
+    //     }
+    // }
+   
+
+// Styles for Payment Successful Page
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    max-height: 525px;
+    max-width: 600px;
+    border-radius: 1rem;
+        padding: 1.5rem;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+                   
+}
+
+.payment-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.success-image {
+    width: 190px; // Adjust the size as needed
+    margin-bottom: 20px;
+}
+
+.success-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000; // Green color for success
+    margin-bottom: 20px;
+}
+
+.order-details {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.additional-message {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thanks-message {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.buttonpd {
+    padding: 20px 15px;
+
+    .checkout-ctapd {
+        outline: 0;
+        border: 0;
+        height: 50px;
+        width: 105%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        // border-radius: .5rem;
+        font-size: 16px;
+        color: white;
+        background: #8e2de2;
+        border-bottom: 3px solid #6516aa;
+        text-transform: uppercase;
+        margin-bottom: -10rem;
+
+        // svg {
+        //     margin-right: 10px;
+        // }
+    }
+}
+ 

@@ -40,6 +40,8 @@ Copy code
 npm run develop
 This will initialize the Strapi backend. Access the Strapi admin panel at http://localhost:1337/admin to manage your content.
 
+
+
 //MORE ABOUT STRAPI
 
 🚀 Getting started with Strapi
